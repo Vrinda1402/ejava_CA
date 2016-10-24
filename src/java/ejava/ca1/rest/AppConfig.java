@@ -3,12 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejava.ca1.model;
+package ejava.ca1.rest;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
 
 /**
  *
  * @author Vrinda
  */
-public class PeopleView {
+@ApplicationPath("/api")
+public class AppConfig extends Application {
+    
     
 }
